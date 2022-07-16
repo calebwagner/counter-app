@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Counter from './components/counter';
+import Counters from './components/counter';
 
 function App() {
   return (
     <div>
-      <Counter />
+      <Counters />
     </div>
   );
 }
