@@ -1,10 +1,14 @@
 import './App.css';
 import Counters from './components/counters';
+import NavBar from './components/navbar';
 
 function App() {
   return (
     <div>
-      <Counters />
+      <NavBar />
+      <main className='container'>
+        <Counters />
+      </main>
     </div>
   );
 }
