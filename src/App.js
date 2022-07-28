@@ -11,6 +11,18 @@ class App extends Component{
     {id: 3, value: 7},
     {id: 4, value: 4}
     ]
+ };
+
+ constructor(props) {
+  super(props); // calls constructor of parent class
+  console.log("App - Constructor", this.props); // this.props is an empty Object
+  // this.state = this.props.something
+ }
+
+ // this is called after the component is rendered into DOM
+ componentDidMount() {
+  // place for Ajax calls
+  console.log("App - Mounted");
  }
 
  handleIncrement = (counter) => {
@@ -35,6 +47,8 @@ class App extends Component{
  }
 
   render() {
+    console.log("App - Rendered");
+
   return (
     <div>
       <NavBar
