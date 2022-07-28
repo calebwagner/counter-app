@@ -17,7 +17,15 @@ class App extends Component{
   super(props); // calls constructor of parent class
   console.log("App - Constructor", this.props); // this.props is an empty Object
   // this.state = this.props.something
- }
+ };
+
+ componentDidUpdate(preProps, preState) {
+  console.log("prevProps", preProps);
+  console.log("prevState", preState);
+  // if(preProps.state.counters.value !== this.state.counters.value) {
+    // Ajax call and get new data from the server
+  // }
+}
 
  // this is called after the component is rendered into DOM
  componentDidMount() {
