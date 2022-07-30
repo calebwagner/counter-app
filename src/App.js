@@ -19,13 +19,13 @@ class App extends Component{
   // this.state = this.props.something
  };
 
- componentDidUpdate(preProps, preState) {
-  console.log("prevProps", preProps);
-  console.log("prevState", preState);
-  // if(preProps.state.counters.value !== this.state.counters.value) {
+//  componentDidUpdate(prevProps, prevState) {
+//   console.log("prevProps", prevProps);
+//   console.log("prevState", prevState);
+  // if(prevProps.counter.value !== this.props.counter.value) {
     // Ajax call and get new data from the server
   // }
-}
+// }
 
  // this is called after the component is rendered into DOM
  componentDidMount() {
