@@ -4,7 +4,7 @@
 
 ### `https://codewithmosh.com/p/mastering-react`
 
-** What I learned **
+## **What I learned**
 
 Components section:
 - JSX
