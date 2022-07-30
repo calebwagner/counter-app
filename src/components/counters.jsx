@@ -19,6 +19,7 @@ class Counters extends Component {
             // bubbling event to parent & using properties from parent component
             onDelete={onDelete}
             onIncrement={onIncrement}
+            onDecrement={this.props.onDecrement}
             counter={counter}
           />
                 )}
